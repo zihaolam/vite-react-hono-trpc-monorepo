@@ -1,0 +1,20 @@
+{
+   "extends": "@luda/tsconfig/node.json",
+   "compilerOptions": {
+      "baseUrl": ".",
+      "outDir": "dist",
+      "paths": {
+            "@luda/api/*": ["./src/*"]
+      }
+   },
+   "include": [
+      "src",
+      "vite.config.ts",
+      "vitest.setup.ts"
+   ],
+   "references": [
+      {
+         "path": "../../tooling/config/tsconfig.json"
+      }
+   ]
+}

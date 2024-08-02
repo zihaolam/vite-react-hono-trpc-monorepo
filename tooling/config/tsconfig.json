@@ -1,0 +1,8 @@
+{
+   "extends": "@luda/tsconfig/base.json",
+   "compilerOptions": {
+      "baseUrl": "../../tooling/config/src",
+      "outDir": "../../tooling/config/dist"
+   },
+   "references": []
+}

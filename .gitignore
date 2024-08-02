@@ -1,0 +1,34 @@
+# dependencies
+node_modules
+
+# testing
+coverage
+
+# builds
+dist
+
+# vite
+dev-dist
+vite.config.ts.timestamp*
+
+# misc
+.DS_Store
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+tsconfig.tsbuildinfo
+
+# env files
+.env
+.env.test
+
+# turbo
+.turbo
+
+# cypress
+screenshots
+videos
+downloads

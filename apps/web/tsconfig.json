@@ -1,0 +1,19 @@
+{
+   "extends": "@luda/tsconfig/react.json",
+   "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+          "@/*": ["./src/*"],
+          "@luda/api/*": ["../../packages/api/src/*"]
+      },
+      "outDir": "dist",
+      "composite": false, 
+      "module": "esnext"
+   },
+   "include": ["src", "cypress", "vite.config.ts", "vitest.setup.ts"],
+   "references": [
+      {
+         "path": "../../tooling/ui/tsconfig.json"
+      }
+   ]
+}
